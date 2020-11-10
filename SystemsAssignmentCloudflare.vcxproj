@@ -24,6 +24,7 @@
     <ProjectGuid>{ec739873-619e-48c2-b5a6-fe358bad3b62}</ProjectGuid>
     <RootNamespace>SystemsAssignmentCloudflare</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>SystemsAssignment</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,7 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="SystemsAssignmentCloudflare.cpp" />
+    <ClCompile Include="SystemsAssignment.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
